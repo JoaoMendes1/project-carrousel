@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--HTML5Shiv-->
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+
+    <!--Fontawesome CSS-->
+    <script src="https://kit.fontawesome.com/cd1b23a939.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Carousel</title>
+    <!--<link rel="icon" href="imagens/favicon.png">-->
+  </head>
+  <body style="padding-bottom: 80px;">
+
+    <div class="container"> <!--Start Container-->
+        <div> <!--Start Row-->
+            <div class="col-sm-8 m-auto"> <!--Start col-sm-8-->
+                <h1>Slider Simples</h1>
+                <div class="carousel slider" data-ride="carousel"> <!--Start main carousel-->
+                    <div class="caroulsel-inner"> <!--Start Carousel inner-->
+                        
+                        <div class="carousel-item active">
+                            <img src="imagens/imagem1.jpeg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="imagens/imagem2.jpeg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="imagens/imagem3.jpeg" alt="" class="img-fluid">
+                        </div>
+
+                    </div> <!--End Carousel inner-->
+                </div><!--End Main Carousel-->
+                <h1>Slider com controles</h1>
+                <div id="carousel-controles" class="carousel slider" data-ride="carousel"> <!--Start main carousel-->
+                    <div class="carousel-inner"> <!--Start Carousel inner-->
+
+                        <div class="carousel-item active">
+                            <img src="imagens/imagem1.jpeg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="imagens/imagem2.jpeg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="imagens/imagem3.jpeg" alt="" class="img-fluid">
+                        </div>
+
+                    </div><!--End Carousel inner-->
+
+                    <!--Controles-->
+                    <a href="#carousel-controles" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+
+                    <a href="#carousel-controles" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div> <!--End main carousel-->
+
+                <h1>Slider com controles/indicadores</h1>
+                <div id="carousel-indicadores" class="carousel slide" data-ride="carousel"> <!--Start Main carousel-->
+
+                    <!--Indicadores-->
+                    <ol class="carousel-indicators">
+
+                        <li class="active" data-target="#carousel-indicadores" data-slide-to="0"></li>
+                        <li data-target="#carousel-indicadores" data-slide-to="1"></li>
+                        <li data-target="#carousel-indicadores" data-slide-to="2"></li>
+                        <li data-target="#carousel-indicadores" data-slide-to="3"></li>
+                        <li data-target="#carousel-indicadores" data-slide-to="4"></li>
+
+                    </ol>
+
+                    <div class="carousel-inner"> <!--Start Carousel Inner-->
+
+                        <div class="carousel-item active">
+                            <img src="imagens/imagem4.jpeg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="imagens/imagem5.jpeg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="imagens/imagem2.jpeg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="imagens/imagem3.jpeg" alt="" class="img-fluid">
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="imagens/imagem1.jpeg" alt="" class="img-fluid">
+                        </div>
+
+                    </div> <!--End-Carousel-Inner-->
+                    <!--Controles-->
+                    <a href="#carousel-indicadores" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+
+                    <a href="#carousel-indicadores" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div> <!--End Main Carousel-->
+
+                
+                <h1 class="text-center">Slider com legendas</h1>
+                
+                <div id="carousel-legendas" class="carousel slide" data-ride="carousel"> <!--Start Main Carousel-->
+
+                    <!--Indicadores-->
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#carousel-legendas" data-slide-to="0"></li>
+                        <li data-target="#carousel-legendas" data-slide-to="1"></li>
+                        <li data-target="#carousel-legenda" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner"> <!--Start Carousel inner-->
+
+                        <div class="carousel-item active">
+                            <img src="imagens/imagem5.jpeg" alt="" class="img-fluid">
+                            <div class="carousel-caption">
+                                <div style="background: gray;">
+                                    <h3>foto 1</h3>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="imagens/imagem4.jpeg" alt="" class="img-fluid">
+                            <div class="carousel-caption">
+                                <h3>Foto2</h3>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="imagens/imagem3.jpeg" alt="" class="img-fluid">
+                            <div class="carousel-caption">
+                                <h3>Foto 2</h3>
+                            </div>
+                        </div>
+
+                    </div> <!--End carousel inner-->
+                    <!--Controles-->
+                    <a href="#carousel-legendas" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+
+                    <a href="#carousel-legendas" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div> <!--End Main Carousel-->
+
+            </div> <!--End col-sm-8-->
+        </div> <!--End Row-->
+    </div><!--End Container-->
+      
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

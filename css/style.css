@@ -1,0 +1,11 @@
+body {
+    background: url(../imagens/fundo4.png);   
+}
+
+h1 {
+    color: white;
+}
+
+#carousel-legendas img {
+    border-radius: 50px;
+}
