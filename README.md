@@ -1,2 +1,2 @@
 # project-carrousel
-projeto para fins didáticos 
+Para fins didáticos 
