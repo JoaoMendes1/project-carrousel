@@ -1,2 +1,2 @@
 # project-carrousel
- Site com slider 
+projeto para fins didáticos 
